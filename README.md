@@ -4,8 +4,8 @@ This framework is designed to run in Cucumber BDD using webdriverIO
 # Installation
 
 ## Pre-requisites
-Nodejs,9.x+
-Visual studio or any other IDE which supports 
+Nodejs,9.x+  
+Visual studio or any other IDE which supports  
 Chrome 90.0.x
 
 ## npm packages
