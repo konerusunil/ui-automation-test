@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./build",
+    "target": "es5",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "experimentalDecorators": true,
+    "paths": {
+      "*": [
+        "./*"
+      ],
+      "src/*": [
+        "*/test/step_definitions", 
+        "*/test/pageobjects"
+
+      ]
+    },
+    "typeRoots": [
+      "./types"
+    ],
+    "types": [
+      "node",
+      "@wdio/sync",
+      "reflect-metadata",
+      "webdriverio",
+      "expect-webdriverio"
+    ]
+  },
+  "include": [
+    "**/test/step_definitions/*.ts",
+    "**/test/pageobjects/*.ts"
+  ]
+}
